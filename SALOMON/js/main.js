@@ -67,7 +67,7 @@ burger.addEventListener('click', () => {
 // delete menu
 const getUrlDocument = document.location.pathname;
 
-if (getUrlDocument !== '/index.html' && getUrlDocument !== '/') {
+if (getUrlDocument === '/about-us.html') {
     burger.style.display = 'none';
     getMainMenu.style.display = 'none';
 }
